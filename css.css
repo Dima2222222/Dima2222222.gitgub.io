@@ -1,0 +1,102 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    font-family: Arial;
+    background: #e8e8e8 url("img/ellipse_1_copy_4.png") 55% -65% no-repeat;
+}
+
+.tr{
+    margin: 7% auto 0;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #273d46;
+    text-align: center;
+}
+
+.don{
+    font-family: 'Times New Roman';
+    width: 38%;
+    margin: 0 auto 0;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+.mbg{
+    margin: 3% auto 0;
+    display: block;
+    border: 10px solid white;
+    box-shadow: 0 15px 65px 0 rgba(15,16,16,0.15);
+}
+
+
+.mart{
+    font-family: 'Times New Roman';
+    width: 40%;
+    opacity: 0.8;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: justify;
+    margin: 5% auto 0;
+}
+
+li { padding-left: 35px;
+    background: #e8e8e8 url("img/check_icon_37.png") 0 9px no-repeat;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.list{
+    padding: 10% 0 10%;
+    margin-bottom: 20%;
+}
+
+.stray{
+    margin: 60px 0 0 0;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    width: 199px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 6px 40px 0 rgba(128,183,179,0.54);
+    background: #80b7b3 url("img/shape_2_9.png") 160px 12px no-repeat;
+}
